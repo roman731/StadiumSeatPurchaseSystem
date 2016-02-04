@@ -1,2 +1,7 @@
 # StadiumSeatPurchaseSystem
-StadiumSeatPurchaseSystem is a an "stadium ticket sales simulator".
+StadiumSeatPurchaseSystem is a an "stadium ticket sales simulator". The app displays a layout of an arena and gives the user the ability to purchase tickets to four available games. The user can purchase the tickets to individual games or to all the games at the same time by selecting an option in the menu bar. The seats are colour coded within 4 
+categories (red, green, blue , yellow). All the seats have various prices based on where the seats are located. The user can select specific seats they want to purchase. This can be done by selecting the seat (clicking on it), at which point it will turn grey (i.e. the state of being selected). Once the user has selected the seats they want to
+purchase they can click the purchase button at which point another window will open asking them to enter their personal information and  credit card number to 'finalize' the order. After they complete this form their information will be posted to console and the seats will be turned white (i.e. the no longer available state.) There is also an admin menu
+which an admin can log into using the username 'admin' and password 'admin'. If the admin successfully logs in there is a summary of all tickets sold and total sales in dollars.
+
+Created using JCreator 4.5 IDE. Tested in Windows 7 and XP. GUI created with Swing. The main method is located in the StadiumApp class. Compile and run.
